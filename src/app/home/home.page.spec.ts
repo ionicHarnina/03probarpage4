@@ -21,4 +21,8 @@ describe('HomePage', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('probar cosas',()=>{
+    expect(component.dameAlgo()).toBeTruthy();
+  })
 });
